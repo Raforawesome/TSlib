@@ -1,7 +1,7 @@
 // mostly used for testing different modules
 
 import { random_string } from "./lib/rlib";
-import {binary_to_text, text_to_binary } from "./lib/binary_ascii";
+import { binary_to_text, text_to_binary } from "./lib/binary_ascii";
 
 let word = "test";
 let binary = text_to_binary(word);
